@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/et_login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"/>
+    <EditText
+        android:id="@+id/et_login_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"/>
+
+    <Button
+        android:id="@+id/bt_login_getPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取密码"/>
+
+    <Button
+        android:id="@+id/bt_login_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"/>
+
+    <Button
+        android:id="@+id/bt_login_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="验证"/>
+    <Button
+        android:id="@+id/bt_login_delSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除验证"/>
+
+    <TextView
+        android:id="@+id/tv_login_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取内容展示区"/>
+
+</LinearLayout>

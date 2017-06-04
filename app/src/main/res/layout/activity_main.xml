@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+     android:id="@+id/bt_main_listen_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语音听写" />
+
+    <Button
+        android:id="@+id/bt_main_recognizer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语音识别"/>
+    <Button
+        android:id="@+id/bt_main_synthesizer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语音合成"/>
+
+    <EditText
+        android:id="@+id/et_main_voiceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="说话人设置"/>
+
+    <EditText
+        android:id="@+id/et_main_speakContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="说话和文本识别"/>
+    <Button
+        android:id="@+id/bt_main_speechUnderstand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语音语义理解"/>
+    <Button
+        android:id="@+id/bt_main_textUnderstand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文本语义理解"/>
+
+    <TextView
+        android:id="@+id/tv_main_showResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示语音识别结果"/>
+
+
+
+
+
+
+</LinearLayout>
