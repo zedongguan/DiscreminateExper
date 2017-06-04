@@ -37,6 +37,7 @@
         <activity android:name=".FaceRecognizer.OnlineFaceRecognizer">
 
         </activity>
+        <activity android:name=".GitActivity"/>
         <activity android:name=".FaceRecognizer.OfflineFaceRecognizer">
 
         </activity>
