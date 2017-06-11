@@ -3,6 +3,7 @@ package robot.tangwa.discreminateexper;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -27,7 +28,7 @@ import robot.tangwa.discreminateexper.intelligencelocal.TW_SpeechSynthesizerLoca
 import robot.tangwa.discreminateexper.intelligencelocal.TW_SpeedRecognizerLocal;
 
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     //初始化变量 or 常量
     public static String TAG=MyApplication.TAG;
     private Context context = MainActivity.this;
